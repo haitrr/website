@@ -13,9 +13,13 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Fira+Code"
           rel="stylesheet"
       />
+      <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat"
+          rel="stylesheet"
+      />
     </Head>
     <NavBar className={styles.navBar}/>
-    <Introduction/>
+    <Introduction className={styles.introduction}/>
   </div>
 }
 

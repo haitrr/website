@@ -6,6 +6,8 @@
   background: #379683;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .navBar {
@@ -123,4 +125,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.introduction {
+  flex-grow: 1;
 }
