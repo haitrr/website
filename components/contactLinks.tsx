@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./contactLinks.module.scss"
-import Image from 'next/image'
 
 const ContactLink = (props: { alt: string, url: string, icon: string }) => <a href={props.url} target="#">
-    <Image src={props.icon} alt={props.alt}/>
+    <img src={props.icon} alt={props.alt}/>
 </a>;
 
 export const ContactLinks = () => <div className={styles.container}>
