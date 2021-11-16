@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./navItem.module.scss"
+import styles from "./navItem.module.scss";
 
 interface Props {
-    title: string;
+  title: string;
 }
 
-export const NavItem: React.FC<Props> = ({title}) => {
-    return <div className={styles.navItem}>
-        {`#${title}`}
-    </div>
-}
+export const NavItem: React.FC<Props> = ({ title }) => {
+  return <div className={styles.navItem}>
+    {`#${title}`}
+  </div>;
+};
