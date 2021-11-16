@@ -1,10 +1,7 @@
 import styles from "./introduction.module.scss"
 import classNames from "classnames";
 import React from "react";
-function ContactLinks() {
-    //TODO: implement this
-    return null;
-}
+import {ContactLinks} from "./contactLinks";
 
 interface Props {
     className?: string;
