@@ -9,14 +9,6 @@ const Home: NextPage = () => {
   return <div className={styles.page}>
     <Head>
       <title>Hai Tran</title>
-      <link
-          href="https://fonts.googleapis.com/css2?family=Fira+Code"
-          rel="stylesheet"
-      />
-      <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat"
-          rel="stylesheet"
-      />
     </Head>
     <NavBar className={styles.navBar}/>
     <Introduction className={styles.introduction}/>
