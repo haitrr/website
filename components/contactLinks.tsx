@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./contactLinks.module.scss";
 
 const ContactLink = (props: { alt: string, url: string, icon: string }) => <a href={props.url} target="#">
-  <img src={props.icon} alt={props.alt} />
+  <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${props.icon}`} alt={props.alt} />
 </a>;
 
 export const ContactLinks = () => <div className={styles.container}>
