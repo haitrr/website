@@ -7,4 +7,8 @@
   padding: 1rem;
 
   color: #FAF9F0;
+
+  &.active {
+    color: #F6490D;
+  }
 }
