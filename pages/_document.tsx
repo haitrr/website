@@ -4,7 +4,7 @@ import React from 'react';
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html style={{ fontSize: '2vw' }}>
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Fira+Code&display=optional"
