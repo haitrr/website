@@ -14,7 +14,7 @@ export const Introduction: React.FC<Props> = ({ className }) => {
       <div className={styles.text}>
         <div className={styles.hello}>Hello,</div>
         <div className={styles.hai}>{"I'm Hai"}</div>
-        <div className={styles.job}>A Software Engineer base in Vietnam</div>
+        <div className={styles.job}>A Software Engineer based in Vietnam</div>
       </div>
       <ContactLinks />
     </div>
