@@ -20,7 +20,7 @@ export const ContactLinks = () => (
     <ContactLink
       alt="github"
       icon="/icons/github.svg"
-      url="https://github.com/vroyibg"
+      url="https://github.com/haitrr"
     />
   </div>
 );
