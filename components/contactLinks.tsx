@@ -26,10 +26,6 @@ export const ContactLinks = () => (
       icon="/icons/github.svg"
       url="https://github.com/haitrr"
     />
-    <ContactLink
-      alt="email"
-      icon="/icons/email.svg"
-      url="https://github.com/haitrr"
-    />
+    <ContactLink alt="email" icon="/icons/email.svg" url="mailto:h@hai.fyi" />
   </div>
 );
