@@ -18,14 +18,14 @@ export const ContactLinks = () => (
   <div className={styles.container}>
     <ContactLink
       alt="linkedin"
-      icon="/icons/linkedin.svg"
+      icon="icons/linkedin.svg"
       url="https://www.linkedin.com/in/haitran26"
     />
     <ContactLink
       alt="github"
-      icon="/icons/github.svg"
+      icon="icons/github.svg"
       url="https://github.com/haitrr"
     />
-    <ContactLink alt="email" icon="/icons/email.svg" url="mailto:h@hai.fyi" />
+    <ContactLink alt="email" icon="icons/email.svg" url="mailto:h@hai.fyi" />
   </div>
 );
