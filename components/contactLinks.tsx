@@ -6,6 +6,10 @@ const ContactLink = (props: { alt: string; url: string; icon: string }) => (
     <img
       src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${props.icon}`}
       alt={props.alt}
+      style={{
+        width: '3rem',
+        height: '3rem',
+      }}
     />
   </a>
 );
@@ -20,6 +24,11 @@ export const ContactLinks = () => (
     <ContactLink
       alt="github"
       icon="/icons/github.svg"
+      url="https://github.com/haitrr"
+    />
+    <ContactLink
+      alt="email"
+      icon="/icons/email.svg"
       url="https://github.com/haitrr"
     />
   </div>
