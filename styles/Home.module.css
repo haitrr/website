@@ -84,7 +84,20 @@
   align-items: center;
   position: relative;
   z-index: 1;
-  padding: 2rem;
+  padding: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding: 6rem;
+  }
 }
 
 .introduction {
